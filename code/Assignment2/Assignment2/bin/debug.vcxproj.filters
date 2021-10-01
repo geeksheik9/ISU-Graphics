@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\bin\CMakeFiles\894d58778d1fbc7c05e5d99620f8d646\debug.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\bin\CMakeFiles\debug" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{24E36EDC-D5AA-31D5-B581-FC5AE1B6A319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

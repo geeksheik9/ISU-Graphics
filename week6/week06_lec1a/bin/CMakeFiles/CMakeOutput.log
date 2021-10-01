@@ -1,0 +1,381 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:04 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\3.13.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\3.13.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\3.13.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/3.13.3/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:05 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\3.13.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\3.13.3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\3.13.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/3.13.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a7437.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:06 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_a7437.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a7437.dir\Debug\".
+  Creating directory "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a7437.dir\Debug\cmTC_a7437.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a7437.dir\Debug\cmTC_a7437.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7437.dir\Debug\\" /Fd"cmTC_a7437.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27026.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7437.dir\Debug\\" /Fd"cmTC_a7437.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_a7437.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_a7437.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_a7437.lib" /MACHINE:X64  /machine:x64 cmTC_a7437.dir\Debug\testCCompiler.obj
+  cmTC_a7437.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_a7437.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a7437.dir\Debug\cmTC_a7437.tlog\unsuccessfulbuild".
+  Touching "cmTC_a7437.dir\Debug\cmTC_a7437.tlog\cmTC_a7437.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_a7437.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b5401.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:08 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_b5401.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b5401.dir\Debug\".
+  Creating directory "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b5401.dir\Debug\cmTC_b5401.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b5401.dir\Debug\cmTC_b5401.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5401.dir\Debug\\" /Fd"cmTC_b5401.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27026.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5401.dir\Debug\\" /Fd"cmTC_b5401.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_b5401.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_b5401.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_b5401.lib" /MACHINE:X64  /machine:x64 cmTC_b5401.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_b5401.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_b5401.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b5401.dir\Debug\cmTC_b5401.tlog\unsuccessfulbuild".
+  Touching "cmTC_b5401.dir\Debug\cmTC_b5401.tlog\cmTC_b5401.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_b5401.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d2cff.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:09 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_d2cff.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d2cff.dir\Debug\".
+  Creating directory "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d2cff.dir\Debug\cmTC_d2cff.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d2cff.dir\Debug\cmTC_d2cff.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2cff.dir\Debug\\" /Fd"cmTC_d2cff.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27026.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2cff.dir\Debug\\" /Fd"cmTC_d2cff.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\feature_tests.c"
+  feature_tests.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_d2cff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_d2cff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_d2cff.lib" /MACHINE:X64  /machine:x64 cmTC_d2cff.dir\Debug\feature_tests.obj
+  cmTC_d2cff.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_d2cff.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d2cff.dir\Debug\cmTC_d2cff.tlog\unsuccessfulbuild".
+  Touching "cmTC_d2cff.dir\Debug\cmTC_d2cff.tlog\cmTC_d2cff.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_d2cff.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_16256.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:10 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_16256.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_16256.dir\Debug\".
+  Creating directory "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_16256.dir\Debug\cmTC_16256.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_16256.dir\Debug\cmTC_16256.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16256.dir\Debug\\" /Fd"cmTC_16256.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27026.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16256.dir\Debug\\" /Fd"cmTC_16256.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_16256.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_16256.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_16256.lib" /MACHINE:X64  /machine:x64 cmTC_16256.dir\Debug\testCXXCompiler.obj
+  cmTC_16256.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_16256.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_16256.dir\Debug\cmTC_16256.tlog\unsuccessfulbuild".
+  Touching "cmTC_16256.dir\Debug\cmTC_16256.tlog\cmTC_16256.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_16256.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1d574.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:11 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_1d574.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1d574.dir\Debug\".
+  Creating directory "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1d574.dir\Debug\cmTC_1d574.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1d574.dir\Debug\cmTC_1d574.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d574.dir\Debug\\" /Fd"cmTC_1d574.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27026.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d574.dir\Debug\\" /Fd"cmTC_1d574.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_1d574.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_1d574.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_1d574.lib" /MACHINE:X64  /machine:x64 cmTC_1d574.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_1d574.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_1d574.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1d574.dir\Debug\cmTC_1d574.tlog\unsuccessfulbuild".
+  Touching "cmTC_1d574.dir\Debug\cmTC_1d574.tlog\cmTC_1d574.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_1d574.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_902c2.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/19/2019 1:01:13 PM.
+Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_902c2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_902c2.dir\Debug\".
+  Creating directory "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_902c2.dir\Debug\cmTC_902c2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_902c2.dir\Debug\cmTC_902c2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_902c2.dir\Debug\\" /Fd"cmTC_902c2.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27026.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_902c2.dir\Debug\\" /Fd"cmTC_902c2.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_902c2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_902c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tacod/OneDrive - IL State University/graphics/week6/week06_lec1a/bin/CMakeFiles/CMakeTmp/Debug/cmTC_902c2.lib" /MACHINE:X64  /machine:x64 cmTC_902c2.dir\Debug\feature_tests.obj
+  cmTC_902c2.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\Debug\cmTC_902c2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_902c2.dir\Debug\cmTC_902c2.tlog\unsuccessfulbuild".
+  Touching "cmTC_902c2.dir\Debug\cmTC_902c2.tlog\cmTC_902c2.lastbuildstate".
+Done Building Project "C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1a\bin\CMakeFiles\CMakeTmp\cmTC_902c2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

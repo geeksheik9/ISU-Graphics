@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/stb-src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/generate.stamp is up-to-date.
+  image-write.c
+C:\Users\tacod\OneDrive - IL State University\graphics\libs\stb\bin\stb\image-write.c(742): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  image-write.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\libs\stb\bin\RelWithDebInfo\stb-image-write.lib

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week2\zip3\week02_lec02_3\src\source\example3_lec02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\week2\zip3\week02_lec02_3\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C6596E41-2BAC-3DF6-8DEB-FDC50A7B8A81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

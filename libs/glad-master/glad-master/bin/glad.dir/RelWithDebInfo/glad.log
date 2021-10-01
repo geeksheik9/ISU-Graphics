@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/tacod/OneDrive - IL State University/graphics/libs/glad-master/glad-master/source/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tacod/OneDrive - IL State University/graphics/libs/glad-master/glad-master/bin/CMakeFiles/generate.stamp is up-to-date.
+  glad.c
+  glad.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\libs\glad-master\glad-master\bin\RelWithDebInfo\glad.lib

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\source\example1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\common\loadShaders.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\include\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\include\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\include\loadShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\shader\triangles1.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\shader\triangles1.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\shader\triangles2.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\shader\triangles2.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{A13B49D5-C59E-3ABD-8B54-4C5AF89AFC49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{05E2261F-6ED0-34AC-93C7-0672FCA53B51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{3AE77D17-A352-327B-9F3C-1E047695BC5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DBC2494-228B-36DC-93A3-8CB2E57EF9AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

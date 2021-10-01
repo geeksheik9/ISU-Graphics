@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\source\example4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\common\loadShaders.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\include\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\include\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\include\loadShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\include\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\shader\3.1.materials.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\shader\3.1.materials.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\shader\3.1.lamp.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp1\src\shader\3.1.lamp.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{8A35E5AF-C98C-3A14-8E2D-ADCA71816B05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A275187C-0B22-3418-96BD-22B87F7AFDAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{34EF77AC-3EB2-3709-95DC-C74BCEA5251D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{546AF286-D921-3668-8B08-DB11EC38E516}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

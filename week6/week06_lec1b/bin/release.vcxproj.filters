@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1b\bin\CMakeFiles\5093f74ca0c42004d1e1e9974eb677c7\release.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1b\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1b\bin\CMakeFiles\release" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EDA80099-AFCD-3F75-92FC-3C88645DB690}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

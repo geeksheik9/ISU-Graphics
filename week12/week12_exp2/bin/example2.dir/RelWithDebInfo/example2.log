@@ -1,0 +1,10 @@
+﻿  example2.cpp
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(259): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(317): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(318): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(322): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(323): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(325): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(326): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\src\source\example2.cpp(335): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  example2.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week12\week12_exp2\bin\bin\example2.exe

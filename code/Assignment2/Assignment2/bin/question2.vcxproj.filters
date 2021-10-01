@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\source\question2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\common\loadShaders.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\include\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\include\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\include\loadShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\shader\texture2.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\Assignment2\Assignment2\src\shader\texture2.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{9E4C50EA-FBEE-32A0-965E-80DD34D1E589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3F913E6B-05E4-345D-B768-96585B5BD187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{DF69AC79-8BDB-34CF-91D4-F7954E06F097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F24BABFE-CCAD-3D46-823F-992151F52B32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

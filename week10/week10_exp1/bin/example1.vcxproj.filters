@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\source\example1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\common\loadShaders.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\include\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\include\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\include\loadShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\shader\texture1.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week10\week10_exp1\src\shader\texture1.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{104B08E6-296E-3B99-B812-B871DCF4F175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1278C5AD-F1E5-38D7-9FEE-1D032568F908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{1BF7E979-330F-39A4-8931-2C70DFD17C4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1BA5D80B-F9AF-3BBC-BE5E-AA7977C8F361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

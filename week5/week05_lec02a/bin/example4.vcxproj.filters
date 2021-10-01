@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\source\example4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\common\loadShaders.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\include\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\include\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\include\loadShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\shader\fshader_w05lec2a2.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\week5\week05_lec02a\src\shader\vshader_w05lec2a2.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{97BE43A0-DCDC-3673-94CA-6E7D909C1839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{88807659-EDCF-3164-B40C-7A85F1AB0F0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{920D8F3F-E8AF-3579-B9BA-A12FFA06528C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C02D6835-D02E-3920-BDF0-EBCA7A045E26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

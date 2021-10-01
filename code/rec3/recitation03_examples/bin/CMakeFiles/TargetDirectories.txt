@@ -1,0 +1,6 @@
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec3/recitation03_examples/bin/CMakeFiles/example0.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec3/recitation03_examples/bin/CMakeFiles/debug.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec3/recitation03_examples/bin/CMakeFiles/example1.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec3/recitation03_examples/bin/CMakeFiles/release.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec3/recitation03_examples/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec3/recitation03_examples/bin/CMakeFiles/ZERO_CHECK.dir

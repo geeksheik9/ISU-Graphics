@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\code\rec3\recitation03_examples\bin\CMakeFiles\d34596d64cbc210f0237e7de1184e16d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C9D5D7EC-CAF6-3D6E-908D-F7FC2748715F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

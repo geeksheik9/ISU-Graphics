@@ -1,0 +1,8 @@
+﻿  Generating GLAD
+  [02/05/2019 13:06:52][INFO	][glad   	]: downloading latest 'gl' specification
+  [02/05/2019 13:06:52][INFO	][glad.opener	]: opening: 'https://raw.githubusercontent.com/KhronosGroup/OpenGL-Registry/master/xml/gl.xml'
+  [02/05/2019 13:06:55][INFO	][glad   	]: generating 'gl' bindings
+  [02/05/2019 13:06:55][INFO	][glad.opener	]: saving: 'https://raw.githubusercontent.com/KhronosGroup/EGL-Registry/master/api/KHR/khrplatform.h' to 'C:\Users\tacod\OneDrive - IL State University\graphics\libs\glad-master\glad-master\bin\include\KHR\khrplatform.h'
+  [02/05/2019 13:06:55][INFO	][glad   	]: generating 'gl' bindings - done
+  Building Custom Rule C:/Users/tacod/OneDrive - IL State University/graphics/libs/glad-master/glad-master/source/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tacod/OneDrive - IL State University/graphics/libs/glad-master/glad-master/bin/CMakeFiles/generate.stamp is up-to-date.

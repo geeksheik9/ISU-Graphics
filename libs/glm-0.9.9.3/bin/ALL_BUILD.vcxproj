@@ -1,0 +1,1097 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD15C9FE-52FD-3BE2-A1AE-8E7743562CE1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm" "-BC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin" --check-stamp-file "C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\GNUInstallDirs.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glm.pc.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmBuildConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake_uninstall.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm" "-BC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin" --check-stamp-file "C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\GNUInstallDirs.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glm.pc.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmBuildConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake_uninstall.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm" "-BC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin" --check-stamp-file "C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\GNUInstallDirs.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glm.pc.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmBuildConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake_uninstall.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm" "-BC:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin" --check-stamp-file "C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\GNUInstallDirs.cmake;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glm.pc.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmBuildConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake\glmConfig.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\cmake_uninstall.cmake.in;C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\glm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\ZERO_CHECK.vcxproj">
+      <Project>{34C1995D-FDD8-3B43-BA2F-E3F473AF8F10}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\glm\glm_shared.vcxproj">
+      <Project>{CA3EA238-64A7-384A-9949-DC57ABD03E4A}</Project>
+      <Name>glm_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\glm\glm_static.vcxproj">
+      <Project>{BAE40535-7DC5-3A2B-9A53-284C77BB21A8}</Project>
+      <Name>glm_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\bug\test-bug_ms_vec_static.vcxproj">
+      <Project>{2C8B6848-2C08-36D1-BC68-8124C94787D2}</Project>
+      <Name>test-bug_ms_vec_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_cpp_constexpr.vcxproj">
+      <Project>{F9A1A294-774D-3094-A402-2C585A5791A9}</Project>
+      <Name>test-core_cpp_constexpr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_cpp_defaulted_ctor.vcxproj">
+      <Project>{D32BA30E-FBC1-3BBC-A452-B7E0D31A1FD8}</Project>
+      <Name>test-core_cpp_defaulted_ctor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_force_aligned_gentypes.vcxproj">
+      <Project>{ECF271F7-A4A9-3192-AA11-A8F148BB21B3}</Project>
+      <Name>test-core_force_aligned_gentypes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_force_ctor_init.vcxproj">
+      <Project>{1550A6CE-944B-3E2F-85BB-7CD3F6D6A000}</Project>
+      <Name>test-core_force_ctor_init</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_force_explicit_ctor.vcxproj">
+      <Project>{57EF929A-AD72-3BA1-A958-3A254EE0F175}</Project>
+      <Name>test-core_force_explicit_ctor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_force_inline.vcxproj">
+      <Project>{5E568542-CF9C-3207-B038-B5F88456E004}</Project>
+      <Name>test-core_force_inline</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_force_pure.vcxproj">
+      <Project>{AFCC218D-5757-3571-B689-9784C3FB8B5D}</Project>
+      <Name>test-core_force_pure</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_force_unrestricted_gentype.vcxproj">
+      <Project>{BB483911-ABBB-366E-8F45-42E7F2FAF56E}</Project>
+      <Name>test-core_force_unrestricted_gentype</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_force_xyzw_only.vcxproj">
+      <Project>{2A44288C-5AA7-326A-BDB8-A6D24D18A92B}</Project>
+      <Name>test-core_force_xyzw_only</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_common.vcxproj">
+      <Project>{18C948DB-2658-3D33-B86B-A47CCF74D624}</Project>
+      <Name>test-core_func_common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_exponential.vcxproj">
+      <Project>{AD6C9623-E738-31C9-9716-10F798A4424C}</Project>
+      <Name>test-core_func_exponential</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_geometric.vcxproj">
+      <Project>{A9012C54-DC0F-349B-B0B2-AD228BBDE3C1}</Project>
+      <Name>test-core_func_geometric</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_integer.vcxproj">
+      <Project>{2E6582C1-1C2D-364B-AE9F-2658E60FDD0D}</Project>
+      <Name>test-core_func_integer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_integer_bit_count.vcxproj">
+      <Project>{DDA5BDE2-4FC3-365F-AE93-4683884A1FD2}</Project>
+      <Name>test-core_func_integer_bit_count</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_integer_find_lsb.vcxproj">
+      <Project>{3195E7AC-B4EE-357D-A40A-BF392D5628E2}</Project>
+      <Name>test-core_func_integer_find_lsb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_integer_find_msb.vcxproj">
+      <Project>{BD22348A-B0B5-3356-8EB9-5B1544575876}</Project>
+      <Name>test-core_func_integer_find_msb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_matrix.vcxproj">
+      <Project>{2C71BFD0-5971-30C5-9453-3D70565EF545}</Project>
+      <Name>test-core_func_matrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_noise.vcxproj">
+      <Project>{0E837BA5-9020-3005-816E-8CF4B0208038}</Project>
+      <Name>test-core_func_noise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_packing.vcxproj">
+      <Project>{16E45540-85E8-337C-9486-F9748B4B5B70}</Project>
+      <Name>test-core_func_packing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_swizzle.vcxproj">
+      <Project>{ABA3EDA4-71A4-3D91-AC9F-41C30789209A}</Project>
+      <Name>test-core_func_swizzle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_trigonometric.vcxproj">
+      <Project>{B5010051-69ED-3287-9A66-634E6764F4A2}</Project>
+      <Name>test-core_func_trigonometric</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_func_vector_relational.vcxproj">
+      <Project>{2B43CFCA-7074-3FF2-BF34-48C6C1A8B34B}</Project>
+      <Name>test-core_func_vector_relational</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_setup_force_cxx98.vcxproj">
+      <Project>{3D1C83B8-065F-36AB-BF57-00B960D04089}</Project>
+      <Name>test-core_setup_force_cxx98</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_setup_force_size_t_length.vcxproj">
+      <Project>{C0B8D412-29D6-3B14-BA17-B66C04B90F60}</Project>
+      <Name>test-core_setup_force_size_t_length</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_setup_message.vcxproj">
+      <Project>{D0CE3822-D0B5-3CE9-A6BC-B0BA598C03A2}</Project>
+      <Name>test-core_setup_message</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_setup_platform_unknown.vcxproj">
+      <Project>{AE30FF18-67F0-3B65-9353-06C841F2441D}</Project>
+      <Name>test-core_setup_platform_unknown</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_setup_precision.vcxproj">
+      <Project>{043912EA-B791-32B1-8AA9-5B15369F4FA4}</Project>
+      <Name>test-core_setup_precision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_aligned.vcxproj">
+      <Project>{2931C8BF-A113-3D7F-8189-36EDEA570A87}</Project>
+      <Name>test-core_type_aligned</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_cast.vcxproj">
+      <Project>{8AA94319-CE15-3DDE-A807-292EB9293594}</Project>
+      <Name>test-core_type_cast</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_ctor.vcxproj">
+      <Project>{E2512F13-554E-38FA-9DD4-3581B78F4023}</Project>
+      <Name>test-core_type_ctor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_int.vcxproj">
+      <Project>{2101FD32-47E0-3DFD-AC94-54FDF624D172}</Project>
+      <Name>test-core_type_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_length.vcxproj">
+      <Project>{91B56CD5-743C-3FC2-8950-1079CC0CCF41}</Project>
+      <Name>test-core_type_length</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat2x2.vcxproj">
+      <Project>{F121EE79-87CB-366F-84B0-C9D29986C414}</Project>
+      <Name>test-core_type_mat2x2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat2x3.vcxproj">
+      <Project>{DD712F4F-62BB-3DA6-A283-071264D958DD}</Project>
+      <Name>test-core_type_mat2x3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat2x4.vcxproj">
+      <Project>{3CD1BF94-4B5C-37E8-905F-8EA6116E0094}</Project>
+      <Name>test-core_type_mat2x4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat3x2.vcxproj">
+      <Project>{CD6C348E-229A-3DCF-A30D-EDAC4040CC5F}</Project>
+      <Name>test-core_type_mat3x2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat3x3.vcxproj">
+      <Project>{1BC0A6B5-A6FB-3C90-BAFC-4ADFF577B424}</Project>
+      <Name>test-core_type_mat3x3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat3x4.vcxproj">
+      <Project>{7F653D78-D9CB-37B7-8750-7E0E214C2258}</Project>
+      <Name>test-core_type_mat3x4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat4x2.vcxproj">
+      <Project>{508D4CE1-B8EF-3076-8614-F35047E6C4C5}</Project>
+      <Name>test-core_type_mat4x2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat4x3.vcxproj">
+      <Project>{E37AC2F7-63CB-311F-82B0-629E42BAAB83}</Project>
+      <Name>test-core_type_mat4x3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_mat4x4.vcxproj">
+      <Project>{5A9E7EE5-03DB-38A4-96AC-3AA603588CDD}</Project>
+      <Name>test-core_type_mat4x4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_vec1.vcxproj">
+      <Project>{8D70C5A9-3B45-30D6-8498-FDA216CD9A31}</Project>
+      <Name>test-core_type_vec1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_vec2.vcxproj">
+      <Project>{41E612E2-970C-3711-A402-530BEF5A97F1}</Project>
+      <Name>test-core_type_vec2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_vec3.vcxproj">
+      <Project>{AD217628-7B1B-3C00-B852-2DB70BEF3B88}</Project>
+      <Name>test-core_type_vec3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\core\test-core_type_vec4.vcxproj">
+      <Project>{7EDDE71E-A3DA-3E9E-B10A-2A158D3F7570}</Project>
+      <Name>test-core_type_vec4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_matrix_relational.vcxproj">
+      <Project>{EFD854E1-F136-3320-9F0C-E879F7443F05}</Project>
+      <Name>test-ext_matrix_relational</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_matrix_transform.vcxproj">
+      <Project>{0C92F633-A7F4-3163-B356-BB2D19BC4A32}</Project>
+      <Name>test-ext_matrix_transform</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_quaternion_common.vcxproj">
+      <Project>{72DD5898-9F41-3E5F-AC55-B78DCB77CA7B}</Project>
+      <Name>test-ext_quaternion_common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_quaternion_exponential.vcxproj">
+      <Project>{C2830813-33B9-3EAF-8EB7-46FE0E3A70BC}</Project>
+      <Name>test-ext_quaternion_exponential</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_quaternion_geometric.vcxproj">
+      <Project>{C8C8BBA0-6794-358D-86F7-8B9A6D0EAE4F}</Project>
+      <Name>test-ext_quaternion_geometric</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_quaternion_relational.vcxproj">
+      <Project>{0192E8F7-758A-3369-B540-850794D3775C}</Project>
+      <Name>test-ext_quaternion_relational</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_quaternion_transform.vcxproj">
+      <Project>{60F438A2-9D51-3626-A91C-8506EC63DD25}</Project>
+      <Name>test-ext_quaternion_transform</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_quaternion_trigonometric.vcxproj">
+      <Project>{71BA6F84-7B99-353C-A4B6-F510C6685D50}</Project>
+      <Name>test-ext_quaternion_trigonometric</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_quaternion_type.vcxproj">
+      <Project>{ABCFDF6D-2FD7-3D69-96AF-D525FFF20081}</Project>
+      <Name>test-ext_quaternion_type</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_scalar_common.vcxproj">
+      <Project>{E2076BC5-9432-3845-96B4-1F7507E8B808}</Project>
+      <Name>test-ext_scalar_common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_scalar_constants.vcxproj">
+      <Project>{71DC8802-8464-36BA-94ED-4FDC7F8326CD}</Project>
+      <Name>test-ext_scalar_constants</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_scalar_int_sized.vcxproj">
+      <Project>{45B5277D-5C6D-3CB5-BBE0-9678DEA856E2}</Project>
+      <Name>test-ext_scalar_int_sized</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_scalar_relational.vcxproj">
+      <Project>{300E1405-2291-38EC-A183-F0109FDC6EB1}</Project>
+      <Name>test-ext_scalar_relational</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_scalar_uint_sized.vcxproj">
+      <Project>{57884CF8-607C-32B4-8BCD-744817329AAC}</Project>
+      <Name>test-ext_scalar_uint_sized</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_scalar_ulp.vcxproj">
+      <Project>{D4621A5E-29B9-3C7E-8480-DAED7477F990}</Project>
+      <Name>test-ext_scalar_ulp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_vec1.vcxproj">
+      <Project>{72D76CE1-C559-3911-9970-C0603F702B9A}</Project>
+      <Name>test-ext_vec1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_vector_bool1.vcxproj">
+      <Project>{54D57C74-97D0-30DE-BBDC-8F2A88F3E9C5}</Project>
+      <Name>test-ext_vector_bool1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_vector_common.vcxproj">
+      <Project>{0EA835A8-648D-30A4-A4D9-2F6D88971137}</Project>
+      <Name>test-ext_vector_common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_vector_iec559.vcxproj">
+      <Project>{0A5773DD-488C-3DC8-9240-B64FB841CFCE}</Project>
+      <Name>test-ext_vector_iec559</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_vector_integer.vcxproj">
+      <Project>{6113EFFF-1FC7-38F9-9AD2-95A1850DDC5A}</Project>
+      <Name>test-ext_vector_integer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_vector_relational.vcxproj">
+      <Project>{3F8CDAE7-253D-39B7-911D-0950C683827D}</Project>
+      <Name>test-ext_vector_relational</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\ext\test-ext_vector_ulp.vcxproj">
+      <Project>{C16499E0-850D-306E-BB43-D0188EDC555A}</Project>
+      <Name>test-ext_vector_ulp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_bitfield.vcxproj">
+      <Project>{6C591B4D-E261-332B-A2CA-CA301948C2A0}</Project>
+      <Name>test-gtc_bitfield</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_color_space.vcxproj">
+      <Project>{47458208-D46A-3F3C-85EB-8798AF22B636}</Project>
+      <Name>test-gtc_color_space</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_constants.vcxproj">
+      <Project>{DDF998CE-8B44-3FD4-A9F1-D6BDDA977FE9}</Project>
+      <Name>test-gtc_constants</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_epsilon.vcxproj">
+      <Project>{D0F69A64-DB2C-312D-81C7-AE386BB65E55}</Project>
+      <Name>test-gtc_epsilon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_integer.vcxproj">
+      <Project>{938F26F8-5550-3CAA-A3EB-56300C6D3213}</Project>
+      <Name>test-gtc_integer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_matrix_access.vcxproj">
+      <Project>{73742145-6F77-3420-A588-3C8C746B457C}</Project>
+      <Name>test-gtc_matrix_access</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_matrix_integer.vcxproj">
+      <Project>{EA92EDA4-C092-3FF5-B082-4D24EEFC87F7}</Project>
+      <Name>test-gtc_matrix_integer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_matrix_inverse.vcxproj">
+      <Project>{3B371B2C-EAEC-31BA-B77C-DDFD097132B0}</Project>
+      <Name>test-gtc_matrix_inverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_matrix_transform.vcxproj">
+      <Project>{A5928B21-DAED-37C3-8800-7837D28ACD53}</Project>
+      <Name>test-gtc_matrix_transform</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_noise.vcxproj">
+      <Project>{A796EC1E-C0E5-34B6-97E4-CCD721BF6E73}</Project>
+      <Name>test-gtc_noise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_packing.vcxproj">
+      <Project>{05F01E7A-0A16-38BD-B951-06B7403DF3B3}</Project>
+      <Name>test-gtc_packing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_quaternion.vcxproj">
+      <Project>{0AB74538-FBA0-3BD0-8DF2-36BF92E72813}</Project>
+      <Name>test-gtc_quaternion</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_random.vcxproj">
+      <Project>{355AFA02-E479-35BD-B03D-6E1BFCDE9B11}</Project>
+      <Name>test-gtc_random</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_reciprocal.vcxproj">
+      <Project>{162B187E-49CC-32E1-9CC5-7733ED64B88B}</Project>
+      <Name>test-gtc_reciprocal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_round.vcxproj">
+      <Project>{8C5CB4EF-CD2F-3836-9BC7-ECAEF13EE8A5}</Project>
+      <Name>test-gtc_round</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_type_aligned.vcxproj">
+      <Project>{F16CD561-97D6-3508-8AEF-334964407187}</Project>
+      <Name>test-gtc_type_aligned</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_type_precision.vcxproj">
+      <Project>{1C69BD50-1B67-3825-A8B5-95C971A3F7E5}</Project>
+      <Name>test-gtc_type_precision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_type_ptr.vcxproj">
+      <Project>{6F843F94-DE9B-3D77-832F-3380E6F6824E}</Project>
+      <Name>test-gtc_type_ptr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_ulp.vcxproj">
+      <Project>{0213160A-FFA2-3D44-BCCE-31A70D2CF3A8}</Project>
+      <Name>test-gtc_ulp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\test-gtc_vec1.vcxproj">
+      <Project>{4D1A0D45-6031-31BF-BE35-7AFBFD2DBD56}</Project>
+      <Name>test-gtc_vec1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx.vcxproj">
+      <Project>{A6736645-9234-3DAC-AAC2-FCD7B05A235C}</Project>
+      <Name>test-gtx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_associated_min_max.vcxproj">
+      <Project>{6609E7C0-3427-3DFA-87BE-B32576BFF263}</Project>
+      <Name>test-gtx_associated_min_max</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_closest_point.vcxproj">
+      <Project>{3135B860-B0E5-36C9-9546-76AF59DAC134}</Project>
+      <Name>test-gtx_closest_point</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_color_encoding.vcxproj">
+      <Project>{F3927DFB-9715-395D-B814-868233D4251B}</Project>
+      <Name>test-gtx_color_encoding</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_color_space.vcxproj">
+      <Project>{FAF04EBC-F8E9-3AAC-ADAF-7894D3F1F427}</Project>
+      <Name>test-gtx_color_space</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_color_space_YCoCg.vcxproj">
+      <Project>{AB4B5135-027C-3BD4-A245-3F5C8563EBBA}</Project>
+      <Name>test-gtx_color_space_YCoCg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_common.vcxproj">
+      <Project>{A65259A1-6135-3247-A3ED-08BBCE5DD7BF}</Project>
+      <Name>test-gtx_common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_compatibility.vcxproj">
+      <Project>{A37A6EFB-A776-3A5E-9694-60A8C38F772A}</Project>
+      <Name>test-gtx_compatibility</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_component_wise.vcxproj">
+      <Project>{AC0BF1AF-3327-3FE8-BD2F-55032F6BC393}</Project>
+      <Name>test-gtx_component_wise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_dual_quaternion.vcxproj">
+      <Project>{4DDFEBF3-B113-3522-80F9-839A9B26F0EC}</Project>
+      <Name>test-gtx_dual_quaternion</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_easing.vcxproj">
+      <Project>{4A01F98E-D387-3FD9-AF81-E70BAA897C61}</Project>
+      <Name>test-gtx_easing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_euler_angle.vcxproj">
+      <Project>{4A8D6D34-78B0-3538-96A7-9BA547BC32AE}</Project>
+      <Name>test-gtx_euler_angle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_extend.vcxproj">
+      <Project>{C27AD4DB-3E43-3419-A190-757F1A67FD23}</Project>
+      <Name>test-gtx_extend</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_extended_min_max.vcxproj">
+      <Project>{8A2BA664-A113-3DF7-827C-14AADE1728A1}</Project>
+      <Name>test-gtx_extended_min_max</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_exterior_product.vcxproj">
+      <Project>{2339EA5C-6688-309A-AB7A-CAFE1F613615}</Project>
+      <Name>test-gtx_exterior_product</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_fast_exponential.vcxproj">
+      <Project>{F789D43D-2768-3593-922D-3E0F95EDD55A}</Project>
+      <Name>test-gtx_fast_exponential</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_fast_square_root.vcxproj">
+      <Project>{D088B661-A63B-3411-9DB8-90FEA793E276}</Project>
+      <Name>test-gtx_fast_square_root</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_fast_trigonometry.vcxproj">
+      <Project>{296E2C51-315D-3075-A40C-302F26B4AA26}</Project>
+      <Name>test-gtx_fast_trigonometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_functions.vcxproj">
+      <Project>{FE7E4C0D-8EC7-3F3E-943E-2A00DDF7D1A5}</Project>
+      <Name>test-gtx_functions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_gradient_paint.vcxproj">
+      <Project>{40CE2646-F9E1-37FA-B566-4E8B28D4A7E4}</Project>
+      <Name>test-gtx_gradient_paint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_handed_coordinate_space.vcxproj">
+      <Project>{E0DAF4B4-4F38-3984-B138-7AA8348A2BC3}</Project>
+      <Name>test-gtx_handed_coordinate_space</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_integer.vcxproj">
+      <Project>{F76B1AEB-A236-38F2-A875-10AD618352C7}</Project>
+      <Name>test-gtx_integer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_intersect.vcxproj">
+      <Project>{367F8108-9830-3771-8D1A-6B1A506845E8}</Project>
+      <Name>test-gtx_intersect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_io.vcxproj">
+      <Project>{B1FEEC9D-DDF5-305A-8D19-0E9A870D7A95}</Project>
+      <Name>test-gtx_io</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_load.vcxproj">
+      <Project>{AF941EF4-AFA6-38F9-B74F-A1D53575325D}</Project>
+      <Name>test-gtx_load</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_log_base.vcxproj">
+      <Project>{E183E22E-A8FF-3EF1-9D94-760FD500D13C}</Project>
+      <Name>test-gtx_log_base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_cross_product.vcxproj">
+      <Project>{4EB2992E-4E8B-3022-9CF6-E94AD801CFDC}</Project>
+      <Name>test-gtx_matrix_cross_product</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_decompose.vcxproj">
+      <Project>{CC4B2730-A417-33ED-BD37-E8A06E3392CF}</Project>
+      <Name>test-gtx_matrix_decompose</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_factorisation.vcxproj">
+      <Project>{B3414A14-BEF9-35B5-B263-B15E813AB280}</Project>
+      <Name>test-gtx_matrix_factorisation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_interpolation.vcxproj">
+      <Project>{0C473216-A374-3514-AE57-E16F3B2D76A2}</Project>
+      <Name>test-gtx_matrix_interpolation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_major_storage.vcxproj">
+      <Project>{4C7F16C9-7425-3CCA-9D1B-442A426E1B90}</Project>
+      <Name>test-gtx_matrix_major_storage</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_operation.vcxproj">
+      <Project>{1B2804E9-DA12-3025-9EF4-B631BBADDB4E}</Project>
+      <Name>test-gtx_matrix_operation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_query.vcxproj">
+      <Project>{87F20C82-3A92-3A2B-B539-9717EF72E67D}</Project>
+      <Name>test-gtx_matrix_query</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_matrix_transform_2d.vcxproj">
+      <Project>{C56AE7AB-87EC-3909-96F7-248FE10186DE}</Project>
+      <Name>test-gtx_matrix_transform_2d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_norm.vcxproj">
+      <Project>{7695DD91-782C-3B31-8DD3-3657ED623757}</Project>
+      <Name>test-gtx_norm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_normal.vcxproj">
+      <Project>{78947DD2-7C07-3614-AB70-16F8030BC400}</Project>
+      <Name>test-gtx_normal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_normalize_dot.vcxproj">
+      <Project>{9CDBCBF0-BD91-3584-8A95-F357F64F968A}</Project>
+      <Name>test-gtx_normalize_dot</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_number_precision.vcxproj">
+      <Project>{5D46BDB5-2B7D-312F-AB45-669097142714}</Project>
+      <Name>test-gtx_number_precision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_optimum_pow.vcxproj">
+      <Project>{EB0EE563-1813-3C23-A442-AEA5883C1F1F}</Project>
+      <Name>test-gtx_optimum_pow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_orthonormalize.vcxproj">
+      <Project>{243356BA-AF36-3C7A-8335-1F614F376C15}</Project>
+      <Name>test-gtx_orthonormalize</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_perpendicular.vcxproj">
+      <Project>{98F8BC5F-A2AE-392F-ABFF-FE94185AA661}</Project>
+      <Name>test-gtx_perpendicular</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_polar_coordinates.vcxproj">
+      <Project>{55232C2B-DC2B-3048-A2B2-96380FDFDC5B}</Project>
+      <Name>test-gtx_polar_coordinates</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_projection.vcxproj">
+      <Project>{A95A1235-7CA1-37DF-90D3-AB1552417068}</Project>
+      <Name>test-gtx_projection</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_quaternion.vcxproj">
+      <Project>{67CDDD32-0B1D-3DF5-8CEE-14AC88A997D7}</Project>
+      <Name>test-gtx_quaternion</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_range.vcxproj">
+      <Project>{DBC1B6FD-7734-3919-9A1D-CC694EF95676}</Project>
+      <Name>test-gtx_range</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_rotate_normalized_axis.vcxproj">
+      <Project>{36D825C9-CC31-3349-B8CA-A22ADDC76463}</Project>
+      <Name>test-gtx_rotate_normalized_axis</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_rotate_vector.vcxproj">
+      <Project>{E74CCA12-7037-3EC5-A26C-16DF7B39BB20}</Project>
+      <Name>test-gtx_rotate_vector</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_scalar_multiplication.vcxproj">
+      <Project>{A3983E01-D7A8-35CC-984C-DE8D834CF3E3}</Project>
+      <Name>test-gtx_scalar_multiplication</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_scalar_relational.vcxproj">
+      <Project>{85F42B9F-1F7E-3880-82DE-24987E51C648}</Project>
+      <Name>test-gtx_scalar_relational</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_spline.vcxproj">
+      <Project>{D6D475A5-C9F7-302D-8FC3-A7AD1DBA5C55}</Project>
+      <Name>test-gtx_spline</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_string_cast.vcxproj">
+      <Project>{61CA7684-F0A0-3B2C-8D3C-3DED60FD3EE7}</Project>
+      <Name>test-gtx_string_cast</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_texture.vcxproj">
+      <Project>{A62EFAD7-8D64-38F2-B137-75AF4224495C}</Project>
+      <Name>test-gtx_texture</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_type_aligned.vcxproj">
+      <Project>{2D2F0878-EEB9-3ACB-879A-57C46C5A0465}</Project>
+      <Name>test-gtx_type_aligned</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_type_trait.vcxproj">
+      <Project>{5E956D57-ADCF-363F-8F73-0C88340E754B}</Project>
+      <Name>test-gtx_type_trait</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_vec_swizzle.vcxproj">
+      <Project>{4AAF63E0-5A2C-3EF0-83BA-424FA148F4AF}</Project>
+      <Name>test-gtx_vec_swizzle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_vector_angle.vcxproj">
+      <Project>{B80B07B5-CC2A-30DB-AA5E-A1BEF0BFC147}</Project>
+      <Name>test-gtx_vector_angle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_vector_query.vcxproj">
+      <Project>{A584D8FB-C468-365A-B87A-678ED5AE5167}</Project>
+      <Name>test-gtx_vector_query</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\test-gtx_wrap.vcxproj">
+      <Project>{AB239851-4B45-370A-A2F6-B89BB6451CAE}</Project>
+      <Name>test-gtx_wrap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\perf\test-perf_matrix_div.vcxproj">
+      <Project>{82153020-4309-31D9-AC37-E138B6A7BE0A}</Project>
+      <Name>test-perf_matrix_div</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\perf\test-perf_matrix_inverse.vcxproj">
+      <Project>{84316D70-8DC6-3B81-99A4-97FEAB568C64}</Project>
+      <Name>test-perf_matrix_inverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\perf\test-perf_matrix_mul.vcxproj">
+      <Project>{60509064-47BD-3E2E-9CCC-636ACCDF76E1}</Project>
+      <Name>test-perf_matrix_mul</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\perf\test-perf_matrix_mul_vector.vcxproj">
+      <Project>{7B5C7738-B951-30F3-8388-9F3BCFF0630F}</Project>
+      <Name>test-perf_matrix_mul_vector</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\perf\test-perf_matrix_transpose.vcxproj">
+      <Project>{0730C9C3-8957-3DB6-B61A-4A4F2F3CD9B5}</Project>
+      <Name>test-perf_matrix_transpose</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\perf\test-perf_vector_mul_matrix.vcxproj">
+      <Project>{66748227-23A7-3C35-89F7-1A099B1560E8}</Project>
+      <Name>test-perf_vector_mul_matrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

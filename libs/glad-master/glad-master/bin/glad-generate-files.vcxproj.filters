@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\libs\glad-master\glad-master\bin\CMakeFiles\62e0b72e3712a4a911b929235377596b\glad.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\libs\glad-master\glad-master\bin\CMakeFiles\363015407f6c163601cfc25c4872a69e\glad-generate-files.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\libs\glad-master\glad-master\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tacod\OneDrive - IL State University\graphics\libs\glad-master\glad-master\bin\CMakeFiles\glad-generate-files" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{407A0DC2-F530-3D9B-AC18-238F539F36F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿  example2.cpp
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(173): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(203): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(323): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(402): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(403): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(407): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(408): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(410): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(411): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\src\source\example2.cpp(419): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  example2.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week13\week13_exp2\bin\bin\example2.exe

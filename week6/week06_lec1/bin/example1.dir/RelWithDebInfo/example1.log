@@ -1,0 +1,4 @@
+﻿  example1.cpp
+C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\source\example1.cpp(91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\src\source\example1.cpp(98): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  example1.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1\bin\bin\example1.exe

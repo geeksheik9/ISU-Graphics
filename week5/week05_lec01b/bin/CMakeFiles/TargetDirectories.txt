@@ -1,0 +1,6 @@
+C:/Users/tacod/OneDrive - IL State University/graphics/week5/week05_lec01b/bin/CMakeFiles/exampleTwoVAOs.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week5/week05_lec01b/bin/CMakeFiles/exampleTwoShaders.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week5/week05_lec01b/bin/CMakeFiles/debug.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week5/week05_lec01b/bin/CMakeFiles/release.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week5/week05_lec01b/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week5/week05_lec01b/bin/CMakeFiles/ZERO_CHECK.dir

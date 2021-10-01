@@ -1,0 +1,8 @@
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/vorbis.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/image.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/image-write.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/image-resize.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/perlin.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/INSTALL.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/libs/stb/bin/CMakeFiles/ZERO_CHECK.dir

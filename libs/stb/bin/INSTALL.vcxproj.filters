@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tacod\OneDrive - IL State University\graphics\libs\stb\bin\CMakeFiles\cb57e39f14b93ad39474e593fe2dd187\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{007B8442-3FB9-30EB-93C8-AC4605CE383C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿  example2.cpp
+C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1b\src\source\example2.cpp(55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  example2.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week6\week06_lec1b\bin\bin\example2.exe

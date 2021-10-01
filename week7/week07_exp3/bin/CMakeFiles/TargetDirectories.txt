@@ -1,0 +1,7 @@
+C:/Users/tacod/OneDrive - IL State University/graphics/week7/week07_exp3/bin/CMakeFiles/example0.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week7/week07_exp3/bin/CMakeFiles/debug.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week7/week07_exp3/bin/CMakeFiles/example1.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week7/week07_exp3/bin/CMakeFiles/example2.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week7/week07_exp3/bin/CMakeFiles/release.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week7/week07_exp3/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/week7/week07_exp3/bin/CMakeFiles/ZERO_CHECK.dir

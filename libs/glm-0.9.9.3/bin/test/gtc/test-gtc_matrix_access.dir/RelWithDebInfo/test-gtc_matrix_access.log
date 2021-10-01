@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/test/gtc/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/test/gtc/CMakeFiles/generate.stamp is up-to-date.
+  gtc_matrix_access.cpp
+  test-gtc_matrix_access.vcxproj -> C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtc\RelWithDebInfo\test-gtc_matrix_access.exe

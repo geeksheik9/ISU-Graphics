@@ -1,0 +1,6 @@
+C:/Users/tacod/OneDrive - IL State University/graphics/code/Assignment1/bin/CMakeFiles/release.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/Assignment1/bin/CMakeFiles/Assignment1a.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/Assignment1/bin/CMakeFiles/Part2.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/Assignment1/bin/CMakeFiles/debug.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/Assignment1/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/Assignment1/bin/CMakeFiles/ZERO_CHECK.dir

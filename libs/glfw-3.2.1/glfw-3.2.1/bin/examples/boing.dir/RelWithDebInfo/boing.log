@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/tacod/OneDrive - IL State University/graphics/libs/glfw-3.2.1/glfw-3.2.1/source/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tacod/OneDrive - IL State University/graphics/libs/glfw-3.2.1/glfw-3.2.1/bin/examples/CMakeFiles/generate.stamp is up-to-date.
+  boing.c
+  glad.c
+  Generating Code...
+  boing.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\libs\glfw-3.2.1\glfw-3.2.1\bin\examples\RelWithDebInfo\boing.exe

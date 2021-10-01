@@ -1,0 +1,12 @@
+﻿  example1c.cpp
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(244): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(354): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(403): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(406): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(410): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(413): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(417): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(420): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1c.cpp(454): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  example1c.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\bin\bin\example1c.exe

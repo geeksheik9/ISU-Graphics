@@ -1,0 +1,218 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/6/2019 10:37:29 PM.
+Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\3.13.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/3.13.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_387b1.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/6/2019 10:37:30 PM.
+Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\cmTC_387b1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_387b1.dir\Debug\".
+  Creating directory "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_387b1.dir\Debug\cmTC_387b1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_387b1.dir\Debug\cmTC_387b1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_387b1.dir\Debug\\" /Fd"cmTC_387b1.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27025.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_387b1.dir\Debug\\" /Fd"cmTC_387b1.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\cmTC_387b1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp/Debug/cmTC_387b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp/Debug/cmTC_387b1.lib" /MACHINE:X64  /machine:x64 cmTC_387b1.dir\Debug\testCXXCompiler.obj
+  cmTC_387b1.vcxproj -> C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\cmTC_387b1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_387b1.dir\Debug\cmTC_387b1.tlog\unsuccessfulbuild".
+  Touching "cmTC_387b1.dir\Debug\cmTC_387b1.tlog\cmTC_387b1.lastbuildstate".
+Done Building Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\cmTC_387b1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_4ac7a.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/6/2019 10:37:31 PM.
+Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\cmTC_4ac7a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4ac7a.dir\Debug\".
+  Creating directory "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4ac7a.dir\Debug\cmTC_4ac7a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4ac7a.dir\Debug\cmTC_4ac7a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ac7a.dir\Debug\\" /Fd"cmTC_4ac7a.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27025.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ac7a.dir\Debug\\" /Fd"cmTC_4ac7a.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\cmTC_4ac7a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp/Debug/cmTC_4ac7a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp/Debug/cmTC_4ac7a.lib" /MACHINE:X64  /machine:x64 cmTC_4ac7a.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_4ac7a.vcxproj -> C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\cmTC_4ac7a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4ac7a.dir\Debug\cmTC_4ac7a.tlog\unsuccessfulbuild".
+  Touching "cmTC_4ac7a.dir\Debug\cmTC_4ac7a.tlog\cmTC_4ac7a.lastbuildstate".
+Done Building Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\cmTC_4ac7a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5b4c6.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/6/2019 10:37:32 PM.
+Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\cmTC_5b4c6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5b4c6.dir\Debug\".
+  Creating directory "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5b4c6.dir\Debug\cmTC_5b4c6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5b4c6.dir\Debug\cmTC_5b4c6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b4c6.dir\Debug\\" /Fd"cmTC_5b4c6.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27025.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b4c6.dir\Debug\\" /Fd"cmTC_5b4c6.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\cmTC_5b4c6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp/Debug/cmTC_5b4c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/CMakeFiles/CMakeTmp/Debug/cmTC_5b4c6.lib" /MACHINE:X64  /machine:x64 cmTC_5b4c6.dir\Debug\feature_tests.obj
+  cmTC_5b4c6.vcxproj -> C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\Debug\cmTC_5b4c6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5b4c6.dir\Debug\cmTC_5b4c6.tlog\unsuccessfulbuild".
+  Touching "cmTC_5b4c6.dir\Debug\cmTC_5b4c6.tlog\cmTC_5b4c6.lastbuildstate".
+Done Building Project "C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\CMakeFiles\CMakeTmp\cmTC_5b4c6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

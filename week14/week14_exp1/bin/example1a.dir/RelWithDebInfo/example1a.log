@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/tacod/OneDrive - IL State University/graphics/week14/week14_exp1/src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tacod/OneDrive - IL State University/graphics/week14/week14_exp1/bin/CMakeFiles/generate.stamp is up-to-date.
+  example1a.cpp
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1a.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1a.cpp(234): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1a.cpp(344): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1a.cpp(393): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1a.cpp(396): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\source\example1a.cpp(433): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  loadShaders.cpp
+C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\src\common\loadShaders.cpp(5): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+  Generating Code...
+  example1a.vcxproj -> C:\Users\tacod\OneDrive - IL State University\graphics\week14\week14_exp1\bin\bin\example1a.exe

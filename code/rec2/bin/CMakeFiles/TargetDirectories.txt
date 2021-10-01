@@ -1,0 +1,6 @@
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec2/bin/CMakeFiles/release.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec2/bin/CMakeFiles/rec2part2.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec2/bin/CMakeFiles/rec2part1.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec2/bin/CMakeFiles/debug.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec2/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/tacod/OneDrive - IL State University/graphics/code/rec2/bin/CMakeFiles/ZERO_CHECK.dir

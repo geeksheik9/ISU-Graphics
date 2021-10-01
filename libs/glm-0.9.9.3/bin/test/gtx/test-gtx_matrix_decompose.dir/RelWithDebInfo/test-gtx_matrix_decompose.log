@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/glm/test/gtx/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Qi Zhang/OneDrive - IL State University/courses/2019s/IT356_19s/libs/glm-0.9.9.3/bin/test/gtx/CMakeFiles/generate.stamp is up-to-date.
+  gtx_matrix_decompose.cpp
+  test-gtx_matrix_decompose.vcxproj -> C:\Users\Qi Zhang\OneDrive - IL State University\courses\2019s\IT356_19s\libs\glm-0.9.9.3\bin\test\gtx\RelWithDebInfo\test-gtx_matrix_decompose.exe
